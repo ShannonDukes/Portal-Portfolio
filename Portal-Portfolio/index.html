@@ -12,79 +12,174 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="item header">
-            <img src="../Portal-Portfolio/images/20201111_170542.jpg" />
-            <h1>Shannon Dukes / Web Developer</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#About">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#Work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#Contact">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#Resume">My Resume</a>
-                    </li>
-                    <li>
-                        <a href="#Cover">My Cover Letter</a>
-                    </li>
-                </ul>
-            </nav>
+    <!-- "NAVIGATION SECTION"- block level element -->
+    <header>
+        <h1>
+            Shannon Dukes
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#contact-information">Contact Information</a>
+                </li>
+                <li>
+                    <a href="#my-project">Projects</a>
+                </li>
+                <li>
+                    <a href="../Portal-Portfolio/assets/Resume.docx" target="-blank">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- END NAVIGATION -->
+
+    <!-- "HERO SECTION" STARTS -->
+    <section class="hero">
+        <div class="hero-secondary">
+            <h2>Portal Portfolio - Web Development Profile</h2>
+            <p>Please check out some of the programs I have created below. I am already on my way to becoming a full
+                stack web developer, utlizing HTML, CSS, JavaScript and more.
+            </p>
         </div>
-        <div class="item sidebar">
-            <h5 id="About">About</h5>
-            <h5 id="Work">Work</h5>
-            <h5 id="Contact">Contact Me</h5>
+    </section>
+    <!-- "END HEADER -->
+    <!-- "ABOUT ME SECTION" STARTS -->
+    <section id="about-me" class="intro">
+        <div>
+            <h2 class="section-title primary-border">
+                Always Changing It Up!
+            </h2>
         </div>
-        <div class="item main">
-            <h2>Always Changing It Up!</h2>
-            <p>Who said you're too old to learn something new?</p>
-            <p>Who said there were glass ceilings to improving your life?</p>
-            <p>From gutter to glamourous, I have been on a feverish track to change my life from an early age.</p>
-            <p> I'm a professional Web Developver who started out by altering her game code as a teenager. </p>
+        <div>
+            <img id="image" src="../Portal-Portfolio/images/20201111_170542.jpg" alt="Shannon Dukes Profile Image">
+            <p>
+                Not only do I have experience in multiple fields, but I am also going to school to develop new skills
+                and love to learn new things. I'm a friendly person who enjoys meeting new people and working with
+                others, but above all I want to find that forever-job that really works hard for me the way I work hard
+                for it. I'm never afraid of a challenge and will always be excited to explore new information as it
+                develops! I'm a nerd for technology and gaming as well as for all things science, but I also love
+                numbers in general.
+            </p>
         </div>
-        <div class="item work">
-            <div class="item photo">Fan Page - Opeth
-                <a href="https://github.com/ShannonDukes/Fan-Page"><img
-                        src="../Portal-Portfolio/images/1280px-Opeth_-_Kavarna_Rock_Fest_2011.jpg" alt=""></a>
+    </section>
+    <!-- "ABOUT ME SECTION" ENDS-->
+
+    <!-- "PROJECT SECTION" STARTS -->
+    <section id="my-project">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                Projects
+            </h2>
+        </div>
+
+        <article class="project">
+            <a href="https://shannondukes.github.io/run-buddy/" target="_blank"><img id="first-picture"
+                    src="https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg"
+                    alt="Run Buddy is a running company looking for new runner's to sign up and run with them"></a>
+            <div class="project-info">
+                <h3 class="project-name1">Run Buddy Website</h3>
+                <h4 class="project-role1">HTML - CSS Website</h4>
+                <p>Creating a Git repostory I created the Run Buddy Web site. Within the index.html file I created, I
+                    ented the html for the website. Using a style.css I creted the sytle for the page. Within the page
+                    you will find flex boxes, media queries anc css variables. The website is also responsive so it will
+                    look good with any device. </p>
             </div>
-            <div class="item photo2">Run Buddy
-                <a href="https://github.com/ShannonDukes/run-buddy"><img
-                        src="https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg" alt=""></a>
+        </article>
+
+        <div class="projects">
+            <article class="project">
+                <a href="https://github.com/ShannonDukes/Fan-Page" target="_blank"><img id="second picture"
+                        src="../Portal-Portfolio/images/1280px-Opeth_-_Kavarna_Rock_Fest_2011.jpg"
+                        alt="Opeth is one of the greatest Swedish metal bands"></a>
+                <div class="project-info">
+                    <h3 class="project-name">Opeth</h3>
+                    <h4 class="project-role">Fan Page</h4>
+                    <p>A basic fan page to show off basic HTML and some additional CSS added later.</p>
+                </div>
+            </article>
+
+            <article class="project">
+                <a href="https://github.com/ShannonDukes/Upvote-Downvote-Feature" target="_blank"><img
+                        id="third picture"
+                        src="../Portal-Portfolio/images/1280px-Panda_Cub_from_Wolong,_Sichuan,_China.jpg"
+                        alt="Who doesn't think pandas are the best bears ever?"></a>
+                <div class="project-info">
+                    <h3 class="project-name">UpVote/DownVote</h3>
+                    <h4 class="project-role">Voting Feature</h4>
+                    <p>An upvote/downvote feature to show basic functions and to show whether you agree that Pandas are
+                        the best!</p>
+                </div>
+            </article>
+
+            <article class="project">
+                <a href="https://github.com/ShannonDukes/Wildlife-Photo_Gallery" target="_blank"><img
+                        id="fourth picture" src="../Portal-Portfolio/images/WesternGraySquirrel1.jpg"
+                        alt="A grey squirrel luring you into this gallery of cuteness."></a>
+                <div class="project-info">
+                    <h3 class="project-name">WildLife Gallery</h3>
+                    <h4 class="project-role">Photo Gallery</h4>
+                    <p>A wildlife photo gallery project to show off any photopgraphy projects in the works.📷</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- "PROJECT SECTION" END -->
+
+
+    <!-- "CONTACT INFORMATION" STARTS -->
+    <section id="contact-information" class="contact">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                Contact Information
+            </h2>
+        </div>
+
+        <div class="contact-info">
+            <div>
+                <h3>
+                    Shannon Dukes
+                </h3>
+                <p>
+                    Any questions or comments about my portfolio please feel free to contact me.
+                    <br />
+                    I'm available at any of the below points of contact!
+                </p>
+
+                <address>
+                    1012 Green Oak Dr #12 <br />
+                    Novaot, CA 94949<br />
+                    Phone: 707-971-0574<br />
+                    Email: <a href="mailto:mrs.knit.wit.dukes@gmail.com">mrs.knit.wit.dukes@gmail.com</a> <br />
+                    Linkedin: <a href="https://www.linkedin.com/in/shannon-d-a9b518213/" target="-blank">Shannon Dukes</a>
+
+                </address>
+
             </div>
-            <div class="item photo3">Calculator
-                <a href="https://github.com/ShannonDukes/Calculator-Interface"><img
-                        src="../Portal-Portfolio/images/1024px-Windows_XP_sighted_'in_the_wild'_on_a_cash_point,_3_August_2018.jpg"
-                        alt=""></a>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.9696807392434!2d-122.53289968404611!3d38.047792804176225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085a2aebc540afb%3A0x81cb76d56e4b704a!2s1012%20Green%20Oak%20Dr%2C%20Novato%2C%20CA%2094949!5e0!3m2!1sen!2sus!4v1626048816845!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!-- "CONTACT INFORMATION" END -->
+
+    <!-- "FOOTER INFORMTION" STARTS -->
+    <footer>
+        <div class="flex-row">
+            <div>
+                <h3>
+                    Shannon Dukes
+                </h3>
             </div>
-            <div class="item photo4">Upvote/Downvote Feature
-                <a href="https://github.com/ShannonDukes/Upvote-Downvote-Feature"><img
-                        src="../Portal-Portfolio/images/1280px-Panda_Cub_from_Wolong,_Sichuan,_China.jpg" alt=""></a>
-            </div>
-            <div class="item photo5">Wildlife Photo Gallery
-                <a href="https://github.com/ShannonDukes/Wildlife-Photo_Gallery"><img
-                        src="../Portal-Portfolio/images/WesternGraySquirrel1.jpg" alt=""></a>
-            </div>
-            <div class="item photo6">Color/Link Editor
-                <a href="https://github.com/ShannonDukes/Word-Editor"><img
-                        src="../Portal-Portfolio/images/Half-hour_sand_glass_MET_ES268.jpg" alt=""></a>
+            <div class="placement-end">
+                &copy; 2021 Shannon's Portal Portfolio
             </div>
         </div>
-        <div class="item footer">
-            <h3>Contact Info:</h3>
-            <br>
-            <p>707-971-0574</p>
-            <p>mrs.knit.wit.dukes@gmail.com</p>
-            <p>Bring it on.</p>
-            <a href="../Portal-Portfolio/assets/Shannon_Dukes_Resume.PDF" id="Resume">Resume</a>
-            <a href="../Portal-Portfolio/assets/ShannonDukes_1.PDF" id="Cover">Cover Letter</a>
-        </div>
-    </div>
+    </footer>
+    <!-- "FOOTER INFORMATION" ENDS -->
 </body>
 
 </html>
