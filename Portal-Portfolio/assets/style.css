@@ -15,6 +15,7 @@ body {
     width: 100%;
     color: var(secondary-color);
     font-family: Helvetia, Arial, Sans-serif;
+    background-color: gray;
 }
 
 p, address {
@@ -148,7 +149,7 @@ footer div {
 .section-title {
     font-size: 48px;
     border-bottom: 3px solid;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -156,7 +157,7 @@ footer div {
 }
 
 .primary-border {
-    border-color: var(--secondary-color);
+    border-color: var(--tertiary-color);
 }
 
 /* SECTION TITLE STYLES END */
@@ -169,6 +170,7 @@ footer div {
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
+    color: white
 }
 
 .intro img {
@@ -176,7 +178,7 @@ footer div {
     margin: 15px;
     position: relative;
     top: -46px;
-    border: 5px solid navy;
+    border: 5px solid black;
 }
 
 #image {
@@ -201,7 +203,7 @@ footer div {
     width: 100%;
     flex: 1;
     background: var(--tertiary-color);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .flex-row {
@@ -217,9 +219,12 @@ footer div {
 }
 
 #first-picture {
-    width: 100%;
+    width: 50%;
     height: 300px;
     opacity: 1.0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #second-picture {
