@@ -17,5 +17,3 @@ item photo2 - Run Buddy
 item photo4 - Upvote/Downvote Feature
     img reference https://en.wikipedia.org/wiki/Giant_panda#/media/File:Panda_Cub_from_Wolong,_Sichuan,_China.JPG
 
-item photo5 - Wildlife Photo Gallery
-    img reference https://en.wikipedia.org/wiki/Western_gray_squirrel#/media/File:WesternGraySquirrel1.JPG
